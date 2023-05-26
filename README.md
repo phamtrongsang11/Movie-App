@@ -1,5 +1,5 @@
 # Movie-App
-A website that offers clients detailed information about movie and tv series, such as the title, image, cast, genres, trailer.... The website was created using ReactJS and TMDB (The Movie Database) API was used for the backend . It has several feature like:
+A website that offers clients detailed information about movie and tv series, such as the title, posters, casts, genres, trailers... The website was created using ReactJS and TMDB (The Movie Database) API was used for the backend . It has several feature like:
 - Providing ability to search for movie or tv series by name and genres.
 - Sorting by popular, name, rating,...
 - Infinite scroll view for displaying the list of movie or tv series
