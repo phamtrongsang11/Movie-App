@@ -14,6 +14,3 @@ To run the app, simply do:
 - yarn install && npm run dev
 
 ## Demo (You can access demo by bellow link)
-<!-- https://cozy-llama-23f969.netlify.app
-![ScreenShot Tool -20230526213920](https://github.com/phamtrongsang11/Movie-App/assets/101312630/e8b4f560-27e9-4de8-bd6b-4e8fa7ef457a)
- -->
