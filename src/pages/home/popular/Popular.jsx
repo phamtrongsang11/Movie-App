@@ -6,7 +6,6 @@ import useMediaTypes from '../../../hooks/useMediaTypes';
 
 const Popular = () => {
 	const [mediaType, setMediaType] = useState('movie');
-	// const { data, loading } = useFetch(`/${endpoint}/popular`);
 	const { data, isLoading } = useMediaTypes(mediaType, 'popular');
 	const onTabChange = (tab) => {
 		setMediaType(tab === 'Movies' ? 'movie' : 'tv');

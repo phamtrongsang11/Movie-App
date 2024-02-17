@@ -17,6 +17,7 @@ const useConfig = () => {
 			dispatch(getApiConfiguration(url));
 		});
 	};
+
 	const genresCall = async () => {
 		let promises = [];
 		let endPoints = ['tv', 'movie'];

@@ -1,7 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import APIClient, { axiosInstance } from '../services/api-client';
-import { useDispatch } from 'react-redux';
-import { getGenres } from '../store/homeSlice';
+import APIClient from '../services/api-client';
 import ms from 'ms';
 
 const useGenres = (mediaType) => {

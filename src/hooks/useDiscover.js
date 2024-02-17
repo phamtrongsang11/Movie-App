@@ -11,7 +11,10 @@ const useDiscover = (mediaType, filter) => {
 			apiClient.getAll({
 				params: {
 					sort_by: filter.sort_by,
-					with_genres: filter.with_genres,
+					with_genres: filter.with_genres?.substring(
+						1,
+						filter.with_genres.length - 1
+					),
 					page: pageParam,
 				},
 			}),
