@@ -14,4 +14,4 @@ To run the app, simply do:
 - yarn install && npm run dev
 
 ## Demo (You can access demo by bellow link)
-https://cozy-llama-23f969.netlify.app
+https://moviex-reactx.netlify.app/
